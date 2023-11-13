@@ -12,6 +12,8 @@ Welcome to the Weather Dashboard! This interactive web application provides real
 ## Image of the Website 
 ![Screenshot 2023-11-13 164900](https://github.com/TarunPara/Weather-Dashboard-/assets/134483509/2588b76a-2caa-44aa-a071-91d3e1a01b77)
 
+## To access the website 
+https://tarunpara.github.io/Weather-Dashboard-/
 
 ## Getting Started
 To get started with this project, clone this repository to your local machine. Ensure you have a modern web browser installed to run the application.
