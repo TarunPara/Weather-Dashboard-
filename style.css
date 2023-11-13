@@ -1,0 +1,124 @@
+body {
+    margin: 5px;
+}
+
+main {
+    display: flex; /* Flex display for main layout */
+}
+
+section {
+    margin-top: 10px;
+}
+
+.header {
+    display: flex; /* Flex display for header alignment */
+    justify-content: center;
+}
+
+.search-panel {
+    width: 25%;
+    margin: 10px 20px 0 10px;
+    padding: 10px 0 10px 10px;
+    background-color: #f0e68c; /* Updated color for the search panel */
+}
+
+.search-button-panel {
+    margin-left: -52px;
+}
+
+.city-list-box {
+    margin-top: 5px;
+}
+
+.city-name {
+    width: 89%;
+}
+
+.results-panel {
+    width: 75%;
+    padding-bottom: 10px;
+    visibility: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.current-conditions-panel {
+    border: 1px solid #ffa07a; /* Light Salmon border for current conditions */
+    border-right: none;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.name-block,
+.uv-index-block {
+    display: flex; /* Flex display for alignment in blocks */
+    align-items: center;
+}
+
+#uv-index {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.forecast-panel {
+    padding-top: 50px;
+}
+
+.container {
+    display: inline; /* Inline display for container elements */
+}
+
+.card-header,
+.card-body {
+    text-align: center;
+}
+
+.card-header {
+    background-color: #6a5acd; /* Slate Blue header background */
+    color: #fffaf0; /* Floral White text color */
+}
+
+.card-body {
+    background-color: #e0ffff; /* Light Cyan body background */
+}
+
+/* Classes Added to Elements */
+
+.favorable {
+    background-color: #98fb98; /* Pale Green for favorable conditions */
+    color: #2f4f4f; /* Dark Slate Gray text color */
+}
+
+.moderate {
+    background-color: #f0e68c; /* Khaki for moderate conditions */
+    color: #696969; /* Dim Gray text color */
+}
+
+.severe {
+    background-color: #ff6347; /* Tomato for severe conditions */
+    color: #fdf5e6; /* Old Lace text color */
+}
+
+/* Viewports Styling */
+
+@media screen and (max-width: 575px) {
+    .search-panel {
+        width: 40%; /* Adjust search panel width for mobile */
+    }
+
+    .search-button-panel {
+        margin-left: 0px;
+    }
+
+    .search-panel h3 {
+        font-size: 15px; /* Smaller font size for mobile */
+    }
+
+    .form-row {
+        display: block;
+        text-align: center;
+    }
+
+    .results-panel {
+        width: 60%; /* Adjust results panel width for mobile */
+    }
+}
